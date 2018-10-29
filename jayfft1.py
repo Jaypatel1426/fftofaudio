@@ -42,7 +42,7 @@ def fourier_transform_rec(data_list):   # function for converting to frequency d
  
  
  
-df = pd.read_csv('/Users/Jay/Downloads/jay.dat', sep='\s+', header=None)  # function that read .dat file
+df = pd.read_csv('jay.dat', sep='\s+', header=None)  # function that read .dat file
 x1=df[1]        # taking only value of 1st coloum
 xlist1=[]      
 for i in x1:
